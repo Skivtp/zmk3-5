@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/mouse.h>
+
 / {
     macros {
         ctrlshiftescape: ctrlshiftescape {
@@ -17,7 +18,15 @@
             label = "CTRLSHIFTESCAPE";
         };
     };
-
+ 
+behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&mt RIGHT_GUI SEMICOLON>, <&kp  APOSTROPHE>, <&kp N3>;
+        };
+    };
     keymap {
         compatible = "zmk,keymap";
 
@@ -30,7 +39,7 @@
 
             bindings = <
 &kp Q           &kp W           &kp E        &kp R             &kp T    &kp Y      &kp U         &kp I        &kp O            &kp P
-&mt LEFT_GUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G    &kp H      &mt LSHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON
+&mt LEFT_GUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G    &kp H      &mt LSHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &td 0
 &kp Z           &kp X           &kp C        &kp V             &kp B    &kp N      &kp M         &kp COMMA    &kp DOT          &kp FSLH
                                 &mo 1        &kp SPACE         &mo 2    &kp DEL  &kp RET         &mo 3 
             >;
@@ -61,7 +70,7 @@
             bindings = <
 &kp ESCAPE          &trans           &kp UP_ARROW    &bt BT_CLR_ALL           &bt BT_NXT    &kp CARET      &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR
 &kp TAB             &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &kp MINUS      &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH
-&kp LC(LS(ESCAPE))  &kp LC(LS(DEL))  &trans          &kt KP_NUMLOCK                &kp PG_UP    &kp UNDER      &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE
+&kp LC(LS(ESCAPE))  &kp LC(LS(DEL))  &trans          &kt KP_NUMLOCK                &kt KP_NUMLOCK     &kp UNDER      &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE
                                                      &kp LGUI    &trans     &trans  &kp BACKSPACE &trans &kp RET
             >;
         };
