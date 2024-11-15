@@ -24,19 +24,25 @@ behaviors {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt RIGHT_GUI SEMICOLON>, <&kp  APOSTROPHE>, <&kp N3>;
+            bindings = <&mt RIGHT_GUI SEMICOLON>, <&kp  LEFT_BRACKET>, <&kp N3>;
         };
 td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt RIGHT_ALT L>, <&kp  ASTERISK>, <&kp N3>;
+            bindings = <&mt RIGHT_ALT L>, <&kp  APOSTROPHE>, <&kp N3>;
         };
 td2: tap_dance_2 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mkp RCLK>, <&kt KP_NUMLOCK>, <&kp N3>;
+        };
+td3: tap_dance_3 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N9>, <&kt KP_NUMLOCK>, <&kp N3>;
         };
     };
     keymap {
