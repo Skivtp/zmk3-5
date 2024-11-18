@@ -60,7 +60,7 @@ td3: tap_dance_3 {
 &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G    &kp H      &mt LSHIFT J  &mt RCTRL K  &td1  &td0
 &kp Z           &kp X           &kp C        &kp V             &kp B    &kp N      &kp M         &kp COMMA    &kp DOT          &kp FSLH
                                  &kp N1         &kp N2          &kp N3    &kp DEL  &kp RET         &mo 3 
-                                &kp N4       &kp N5       &kp N7           &kp DEL  &kp RET        
+                                &kp N4       &kp N5                        &kp DEL  &kp RET        
 
 
             >;
@@ -78,7 +78,7 @@ td3: tap_dance_3 {
 &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp DOLLAR       &kp PERCENT   &kp CARET  &kp RIGHT  &trans
 &kp N7        &kp N8  &td3      &mkp LCLK               &td2                 &kp AMPERSAND    &kp ASTERISK  &kp  APOSTROPHE    &kp  LEFT_BRACKET      &kp DEL
                                     &kp LGUI   &trans     &kp SPACE                &kp BACKSPACE      &trans    &kp RET
-                                      &kp N4       &kp N5       &kp N7                   &kp DEL  &kp RET 
+                                      &kp N4       &kp N5                           &kp DEL  &kp RET 
             >;
         };
 
@@ -94,7 +94,7 @@ td3: tap_dance_3 {
 &kp TAB             &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &kp MINUS      &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH
 &kp LC(LS(ESCAPE))  &kp LC(LS(DEL))  &trans          &kt KP_NUMLOCK              &kt KP_NUMLOCK     &kp UNDER      &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE
                                                      &kp LGUI    &trans     &trans  &kp BACKSPACE &trans &kp RET
-                                                             &kp N4       &kp N5       &kp N7                   &kp DEL  &kp RET 
+                                                             &kp N4       &kp N5                       &kp DEL  &kp RET 
             >;
         };
 
