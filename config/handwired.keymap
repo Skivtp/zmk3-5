@@ -42,6 +42,12 @@ td3: tap_dance_3 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
+            bindings = <&kp M>, <&kp RIGHT_BRACKET>;
+        };
+td4: tap_dance_4 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
             bindings = <&kp N9>, <&kt KP_NUMLOCK>;
         };
     };
@@ -58,7 +64,7 @@ td3: tap_dance_3 {
             bindings = <
 &kp Q           &kp W           &kp E        &kp R             &kp T    &kp Y      &kp U         &kp I        &kp O            &kp P
 &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G    &kp H      &mt LSHIFT J  &mt RCTRL K  &td1  &td0
-&kp Z           &kp X           &kp C        &kp V             &kp B    &kp N      &kp M         &kp COMMA    &kp DOT          &kp FSLH
+&kp Z           &kp X           &kp C        &kp V             &kp B    &kp N      &td3       &kp COMMA    &kp DOT          &kp FSLH
                                 &kp SPACE      &mo 1                     &mo 2    &kp DEL  &kp RET         &mo 3 
                                          &mkp RCLK  &mkp LCLK                     &kp DEL  &kp RET        
 
