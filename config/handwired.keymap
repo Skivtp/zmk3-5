@@ -60,7 +60,7 @@ td3: tap_dance_3 {
 &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G    &kp H      &mt LSHIFT J  &mt RCTRL K  &td1  &td0
 &kp Z           &kp X           &kp C        &kp V             &kp B    &kp N      &kp M         &kp COMMA    &kp DOT          &kp FSLH
                                 &kp SPACE      &mo 1                     &mo 2    &kp DEL  &kp RET         &mo 3 
-                                      &mkp LCLK   &mkp RCLK                       &kp DEL  &kp RET        
+                                         &mkp RCLK  &mkp LCLK                     &kp DEL  &kp RET        
 
 
             >;
