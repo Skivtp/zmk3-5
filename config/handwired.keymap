@@ -96,7 +96,7 @@ td4: tap_dance_4 {
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE          &trans           &kp UP_ARROW    &bt BT_CLR_ALL           &bt BT_NXT    &kp CARET      &kp AMPS   &kp ASTRK  &BT_SEL 0  &BT_CLR_ALLL
+&kp ESCAPE          &trans           &kp UP_ARROW    &bt BT_CLR_ALL           &bt BT_NXT    &kp CARET      &kp AMPS   &kp ASTRK  &kp PIPE  &bt BT_CLR_ALL
 &kp TAB             &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &kp MINUS      &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH
 &kp LC(LS(ESCAPE))  &kp LC(LS(DEL))  &trans          &kt KP_NUMLOCK              &kt KP_NUMLOCK     &kp UNDER      &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE
                                                      &trans    &trans     &trans  &kp BACKSPACE &trans &kp RET
