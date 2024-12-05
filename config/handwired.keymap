@@ -87,8 +87,8 @@ td4: tap_dance_4 {
 &kp N1        &kp N2  &kp N3        &kp N0                &kp MINUS                &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp N9     &kp BACKSPACE
 &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp DOLLAR       &kp PERCENT   &kp CARET  &kp RIGHT  &trans
 &kp N7        &kp N8  &kp N9     &mkp LCLK               &td2                 &kp AMPERSAND    &kp ASTERISK  &kp  APOSTROPHE    &kp  LEFT_BRACKET      &kp DEL
-                                    &trans  &trans     &trans                &kp BACKSPACE      &trans    &kp RET
-                                      &trans      &trans                          &kp DEL  &kp RET 
+                                    &mo 1             &mkp RCLK         &kp DEL      &mo 4
+                                &kp SPACE    &mo 2             &mkp LCLK         &kp BACKSPACE  &mo 3   &kp RET     
             >;
         };
 
@@ -105,8 +105,8 @@ td4: tap_dance_4 {
 &kp ESCAPE          &trans           &kp UP_ARROW    &bt BT_CLR_ALL           &bt BT_NXT    &kp CARET      &kp AMPS   &kp ASTRK  &kp PIPE  &bt BT_CLR_ALL
 &kp TAB             &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &kp MINUS      &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH
 &kp LC(LS(ESCAPE))  &kp LC(LS(DEL))  &trans          &kt KP_NUMLOCK              &kt KP_NUMLOCK     &kp UNDER      &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE
-                                                     &trans    &trans     &trans  &kp BACKSPACE &trans &kp RET
-                                                             &kt KP_NUMLOCK      &trans                       &kp DEL  &kp RET 
+                                                                 &mo 1             &mkp RCLK         &kp DEL      &mo 4
+                                &kp SPACE    &mo 2             &mkp LCLK         &kp BACKSPACE  &mo 3   &kp RET     
             >;
         };
 
@@ -117,8 +117,8 @@ td4: tap_dance_4 {
 &kp ESCAPE  &trans  &kp W  &kp R  &kp E        &trans  &trans  &trans  &trans  &trans
 &kp TAB   &kp A  &kp S  &kp D  &kp F            &trans  &trans  &trans  &trans  &trans
 &kp LCTRL  &trans  &trans  &kp B  &kp M        &trans  &trans  &trans  &trans  &trans
-    &kp LEFT_SHIFT    &kp SPACE     &trans        &kp BACKSPACE &kp RET &to 0
-                &kt KP_NUMLOCK      &trans                       &kp DEL  &kp RET 
+                &mo 1             &mkp RCLK         &kp DEL      &mo 4
+                                &kp SPACE    &mo 2             &mkp LCLK         &kp BACKSPACE  &mo 3   &kp RET      
             >;
         };
     };
