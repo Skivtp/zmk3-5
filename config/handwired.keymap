@@ -112,10 +112,10 @@ td4: tap_dance_4 {
 
         layer_3 {
             bindings = <
- &trans  &trans  &trans  &trans  &to 0      &trans  &trans  &trans  &trans  &trans
- &kp N1        &kp N2  &kp N3   &kp N4  &kp N5        &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &kp Q  &kp W  &kp R  &kp E        &trans  &trans  &trans  &trans  &trans
-&kp TAB   &kp A  &kp S  &kp D  &kp F            &trans  &trans  &trans  &trans  &trans
+ &kp ESCAPE  &trans  &trans  &trans  &to 0      &trans  &trans  &trans  &trans  &trans
+ &kp TAB      &trans        &kp N3   &kp N4  &kp N5        &trans  &trans  &trans  &trans  &trans
+&kp N1  &kp Q  &kp W  &kp R  &kp E        &trans  &trans  &trans  &trans  &trans
+&kp N2   &kp A  &kp S  &kp D  &kp F            &trans  &trans  &trans  &trans  &trans
 &kp LEFT_ALT  &trans  &trans  &kp B  &kp M        &trans  &trans  &trans  &trans  &trans
                 &kp LCTRL             &mkp RCLK         &kp DEL      &mo 4
                                 &kp SPACE    &kp LEFT_SHIFT             &mkp LCLK         &kp BACKSPACE  &mo 3   &kp RET      
